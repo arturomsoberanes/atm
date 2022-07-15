@@ -1,4 +1,4 @@
-const ATMDeposit = ({ onChange, isDeposit }) => {
+function ATMDeposit({ onChange, isDeposit }){
   const choice = ["Deposit", "Cash Back"];
   console.log(`ATM isDeposit: ${isDeposit}`);
   return (
@@ -9,4 +9,6 @@ const ATMDeposit = ({ onChange, isDeposit }) => {
     </label>
   );
 };
+
+export default ATMDeposit;
 

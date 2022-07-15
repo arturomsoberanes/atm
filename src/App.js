@@ -1,4 +1,5 @@
-import ATMDeposit from '.ATMDeposit';
+import React from 'react'
+import ATMDeposit from './ATMDeposit';
 import './App.css';
 
 function App(){
@@ -8,14 +9,15 @@ function App(){
 
   let status = `Account Balance $ ${totalState} `;
   console.log(`Account Rendered with isDeposit: ${isDeposit}`);
-  const handleChange = event => {
-    console.log(`handleChange ${event.target.value}`);
-    deposit = Number(event.target.value);
+
+  const handleChange = e => {
+    console.log(`handleChange ${e.target.value}`);
+    deposit = Number(e.target.value);
   };
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     let newTotal = isDeposit ? totalState + deposit : totalState - deposit;
     setTotalState(newTotal);
-    event.preventDefault();
+    e.preventDefault();
   };
 
   return (
