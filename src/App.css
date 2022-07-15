@@ -1,10 +1,66 @@
-*,*:before,*:after {
-  box-sizing: border-box;
-  margin: 0;
+#root {
+  width: 100%;
 }
-button {
-  border: 3px solid #3b383e;
+.form-container {
+  height: 100vh;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.form-container h1{
+  text-align: center;
+  margin-bottom: 1em;
+}
+.form-container form {
+  padding: 2em;
+  border: 3px solid #FEB30E;
+  font-size: 1.2rem;
+  background-color: #343434;
+  color:#ff4c4c;
+
+}
+.form-container img {
+  display: block;
+  margin-bottom:1rem;
+  width: 50%;
+  max-width: 100px;
+}
+.form-container select{
+  width: 100%;
+  border: 0;
+  border-bottom: 3px solid #FD7908;
+  font-size: 1rem;
+}
+.enable, select {
+  background:transparent;
+  color:white;
+}
+input[type="number"]{
+  width: 100%;
+  border:0;
+  border-bottom: 2px solid #FEB30E;
+  background-color: transparent;
+  color:#FEB30E;
+}
+.enable {
+  font-size: 1rem;
+  display: block;
+  border: 3px solid #FD7908;
   border-radius: 6px;
-  width: 150px;
-  margin: 0 0.4em;
+  margin: 0.4em 0;
+}
+.enable:hover{
+  cursor:pointer;
+  background-color: #FD7908;
+  color:black;
+  font-weight: bold;
+}
+.disable{
+  background-color: #898082;
+  color: #4B4B4D;
+  font-size: 1rem;
 }
