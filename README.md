@@ -26,7 +26,7 @@ To make this project use [Create React App](https://create-react-app.dev/)
 
 ## :dart: DEMO ##
 
-If you want to try it just click [here](https://arturomsoberanes.github.io/PacMen_Factory)
+If you want to try it just click [here](https://arturomsoberanes.github.io/atm)
 
 ## :memo: Improvements ##
 
@@ -41,7 +41,6 @@ These are the list of currect improvements:
 - [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://www.w3schools.com/js/)
 - [React](https://reactjs.org/)
-- [Create React App](https://create-react-app.dev/)
 
 ## :white_check_mark: Requirements ##
 
@@ -99,5 +98,5 @@ Made with :heart: by <a href="https://github.com/arturomsoberanes" target="_blan
 
 &#xa0;
 
-<a href="#top">Back to top</a>o
+<a href="#top">Back to top</a>
 
